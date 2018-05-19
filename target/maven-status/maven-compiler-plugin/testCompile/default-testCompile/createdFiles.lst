@@ -1,0 +1,4 @@
+WorldTour\Selenium\CucumberSample\steps\WorldTourMainPageSteps.class
+WorldTour\Selenium\CucumberSample\PageObjects\TouringMainPage.class
+WorldTour\Selenium\CucumberSample\PageObjects\LoginSuccessPage.class
+WorldTour\Selenium\CucumberSample\RunCukesTest.class

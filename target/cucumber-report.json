@@ -1,0 +1,56 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "2 - login",
+        "description": "",
+        "id": "main-page-of-touring;2---login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 10,
+            "name": "in Browser page \"http://newtours.demoaut.com/\"",
+            "keyword": "Given "
+          },
+          {
+            "line": 11,
+            "name": "I login with user ID \"Mercury\", and password \"mercury\"",
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15222535,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will acess to successful login page with title \"Find a Flight: Mercury Tours:\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find a Flight: Mercury Tours:",
+                  "offset": 50
+                }
+              ],
+              "location": "WorldTourMainPageSteps.iWillAcessToSuccessfulLoginPageWithTitle(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@ignore"
+          }
+        ]
+      }
+    ],
+    "name": "Main page of touring",
+    "description": "to make sure main page is there and functions are accessable",
+    "id": "main-page-of-touring",
+    "keyword": "Feature",
+    "uri": "WorldTour.Selenium.CucumberSample\\TouringHome.feature"
+  }
+]
