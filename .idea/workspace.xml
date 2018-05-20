@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2006c60-cfaa-49bc-a74c-bd140d121f22" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/SupportPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/WrongPageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/ReusableFunctions/InputOutputDataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/ReusableFunctions/ScreenShotRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/FindaFlightSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/FindaFlight.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterSuccessfulPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterSuccessfulPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/RunCukesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-htmlreport/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-htmlreport/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-WorldTour.Selenium.CucumberSample.RunCukesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-WorldTour.Selenium.CucumberSample.RunCukesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/WorldTour.Selenium.CucumberSample.RunCukesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/WorldTour.Selenium.CucumberSample.RunCukesTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorldTour.Selenium.CucumberSample/TouringHome.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/RegisterSuccessfulPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/RegisterSuccessfulPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/RunCukesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/RunCukesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +42,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TouringHome.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.feature">
+      <file leaf-file-name="FindaFlightPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="355">
+              <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,12 +79,24 @@
         <option value="$PROJECT_DIR$/src/test/WorldTour.Selenium.CucumberSample/TouringHome.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/LoginSuccessPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/RunCukesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/SupportPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/PageException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/SupportPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterSuccessfulPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/RunCukesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/WrongPageException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/ReusableFunctions/InputOutputDataHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/RegistrationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/Registration.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/RegistationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/FindaFlight.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/FindaFlightSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.java" />
       </list>
     </option>
   </component>
@@ -79,8 +121,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +173,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="CucumberSample" type="462c0819:PsiDirectoryNode" />
+              <item name="ReusableFunctions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumCucumber201" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumCucumber201" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberSample" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -151,24 +203,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resource" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Selenium123\SeleniumCucumber201\src\test\resource" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="WorldTour.Selenium.CucumberSample" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="WorldTour.Selenium.CucumberSample.PageObjects" />
+      <recent name="WorldTour.Selenium.CucumberSample.steps" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WorldTour.Selenium.CucumberSample.ReusableFunctions" />
+      <recent name="WorldTour.Selenium.CucumberSample.steps" />
+      <recent name="WorldTour.Selenium.CucumberSample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Selenium123\SeleniumCucumber201\src\test\resource" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,34 +326,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCukesTest - 2018.05.19 at 20h 46m 52s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 16h 49m 58s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 20h 47m 39s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 16h 50m 32s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 20h 50m 19s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 16h 52m 00s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 21h 00m 33s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 16h 56m 24s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 21h 01m 21s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 16h 57m 01s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 21h 44m 59s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 17h 05m 45s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 21h 47m 33s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 17h 06m 59s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 21h 48m 53s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 17h 12m 06s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 21h 50m 08s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 17h 12m 32s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.05.19 at 21h 51m 23s.xml">
+    <history-entry file="RunCukesTest - 2018.05.20 at 17h 14m 19s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -324,18 +379,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32914287" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59314287" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49942857" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32914287" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34324324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34972972" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39885715" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -351,15 +406,64 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.java</url>
-          <line>21</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="11" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="flightInfo.get(8).equals(&quot;1&quot;)" />
+        <watch expression="flightInfo.get(8)" />
+        <watch expression="flightInfo.get(8).equals(&quot;2&quot;)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>(driver.getTitle().equals(&quot;Find a Flight: Mercury Tours:&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(driver.getTitle())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(driver.getTitle().equals(&quot;Find a Flight: Mercury Tours: &quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(driver.getTitle().contains(&quot;Find a Flight: Mercury Tours: &quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Find a Flight: Mercury Tours:</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.features">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -454,64 +558,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/SupportPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/RunCukesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/WrongPageException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterSuccessfulPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/SupportPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/RegistrationSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.features">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/TouringMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/ReusableFunctions/InputOutputDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/FindaFlight.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/ReusableFunctions/ScreenShotRule.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/FindaFlightSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/RunCukesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/FindaFlightPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="355">
+          <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/steps/WorldTourMainPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WorldTour/Selenium/CucumberSample/PageObjects/RegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/WorldTour.Selenium.CucumberSample/TouringHome.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>

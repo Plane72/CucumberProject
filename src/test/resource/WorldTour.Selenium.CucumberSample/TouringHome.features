@@ -10,11 +10,19 @@ Feature: Main page of touring
     Given in Browser page "http://newtours.demoaut.com/"
     When I login with user ID "Mercury", and password "mercury"
     Then I will access to successful login page with title "Find a Flight: Mercury Tours:"
+  @ignore
   Scenario Outline: : 3 - Register
     Given From MainPage "http://newtours.demoaut.com/" going to Register page
     When Register with "<Fname>" "<LName>" "<address>" "<Country>" "<username>" "<password>" information
     Then Registeration successed with title of "Register: Mercury Tours"
     Examples:
     |Fname|LName|address|Country|username|password|
-    |Mic|W|11 donmills|Canada|MWU|123456|
-    |He|W|12 northyork|UNITED STATES|Hen|23467|
+    |KK|Wick|11 empire|Canada|KWICK|123456|
+    |HH|Wrok|12 queens|UNITED STATES|HWROK|23467|
+@ignore
+    Scenario: 4 - Multi Conditions
+      Given in Browser page "http://newtours.demoaut.com/"
+      And go to SupportPage with title "Under Construction: Mercury Tours"
+      When click on "BACK TO HOME" button
+      Then will return to main page title "Welcome: Mercury Tours"
+      But shouldn't see "Google.ca" button

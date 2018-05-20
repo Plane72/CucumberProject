@@ -7,6 +7,10 @@ public class RegisterPage {
     WebDriver driver;
     public RegisterPage(WebDriver driver){
         this.driver = driver;
+        if (!(driver.getTitle().contains("Register: Mercury Tours"))){
+            throw new WrongPageException("Incorrect Register page title: "+driver.getTitle());
+        }
+
     }
 
     public WebDriver getDriver(){

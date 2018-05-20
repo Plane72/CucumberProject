@@ -1,4 +1,8 @@
-WorldTour\Selenium\CucumberSample\steps\WorldTourMainPageSteps.class
-WorldTour\Selenium\CucumberSample\PageObjects\TouringMainPage.class
-WorldTour\Selenium\CucumberSample\PageObjects\LoginSuccessPage.class
+WorldTour\Selenium\CucumberSample\PageObjects\WrongPageException.class
+WorldTour\Selenium\CucumberSample\PageObjects\SupportPage.class
 WorldTour\Selenium\CucumberSample\RunCukesTest.class
+WorldTour\Selenium\CucumberSample\PageObjects\RegisterPage.class
+WorldTour\Selenium\CucumberSample\steps\WorldTourMainPageSteps.class
+WorldTour\Selenium\CucumberSample\PageObjects\FindaFlightPage.class
+WorldTour\Selenium\CucumberSample\PageObjects\TouringMainPage.class
+WorldTour\Selenium\CucumberSample\PageObjects\RegisterSuccessfulPage.class

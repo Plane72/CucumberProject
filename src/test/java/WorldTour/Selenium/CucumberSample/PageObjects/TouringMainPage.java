@@ -10,6 +10,10 @@ public class TouringMainPage {
         this.driver = driver;
         this.driver.manage().window().maximize();
         this.driver.get(touringURL);
+        if (!(driver.getTitle().contains("Welcome: Mercury Tours"))){
+            throw new WrongPageException("Incorrect main page title: "+driver.getTitle());
+        }
+
     }
 
     public WebDriver getDriver() {
@@ -25,5 +29,10 @@ public class TouringMainPage {
     public RegisterPage goesToRegisterPage(){
         driver.findElement(By.linkText("REGISTER")).click();
         return new RegisterPage(driver);
+    }
+
+    public SupportPage goesToSupportPage(){
+        driver.findElement(By.linkText("SUPPORT")).click();
+        return new SupportPage(driver);
     }
 }

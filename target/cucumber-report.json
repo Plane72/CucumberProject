@@ -3,102 +3,42 @@
     "line": 1,
     "elements": [
       {
-        "line": 19,
-        "name": ": 3 - Register",
+        "line": 2,
+        "name": "",
         "description": "",
-        "id": "main-page-of-touring;:-3---register;;2",
+        "id": "reggistration-and-its-handling;",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
-            "line": 14,
-            "name": "From MainPage \"http://newtours.demoaut.com/\" going to Register page",
+            "line": 3,
+            "name": "in Find a Flight page",
             "keyword": "Given "
           },
           {
-            "line": 15,
-            "name": "Register with \"Mic\" \"W\" \"11 donmills\" \"Canada\" \"MWU\" \"123456\" information",
-            "matchedColumns": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
+            "line": 4,
+            "name": "fill in page one of Find a Flight with correct information, then click continue button",
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 25452536,
+              "duration": 17600,
               "status": "passed"
             },
-            "line": 16,
-            "name": "Registeration successed with title of \"Register: Mercury Tours\"",
+            "line": 5,
+            "name": "application will move to the second page of Find a flight",
             "match": {
-              "arguments": [
-                {
-                  "val": "Register: Mercury Tours",
-                  "offset": 39
-                }
-              ],
-              "location": "WorldTourMainPageSteps.registerationSuccessedWithTitleOf(String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 20,
-        "name": ": 3 - Register",
-        "description": "",
-        "id": "main-page-of-touring;:-3---register;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "line": 14,
-            "name": "From MainPage \"http://newtours.demoaut.com/\" going to Register page",
-            "keyword": "Given "
-          },
-          {
-            "line": 15,
-            "name": "Register with \"He\" \"W\" \"12 northyork\" \"UNITED STATES\" \"Hen\" \"23467\" information",
-            "matchedColumns": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 18642802,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Registeration successed with title of \"Register: Mercury Tours\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Register: Mercury Tours",
-                  "offset": 39
-                }
-              ],
-              "location": "WorldTourMainPageSteps.registerationSuccessedWithTitleOf(String)"
+              "location": "FindaFlightSteps.application_will_move_to_the_second_page_of_Find_a_flight()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Main page of touring",
-    "description": "to make sure main page is there and functions are accessable",
-    "id": "main-page-of-touring",
+    "name": "Reggistration and its handling",
+    "description": "",
+    "id": "reggistration-and-its-handling",
     "keyword": "Feature",
-    "uri": "WorldTour.Selenium.CucumberSample\\TouringHome.feature"
+    "uri": "WorldTour.Selenium.CucumberSample\\FindaFlight.feature"
   }
 ]
