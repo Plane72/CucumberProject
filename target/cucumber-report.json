@@ -3,46 +3,94 @@
     "line": 1,
     "elements": [
       {
-        "line": 9,
-        "name": "2 - login",
+        "line": 19,
+        "name": ": 3 - Register",
         "description": "",
-        "id": "main-page-of-touring;2---login",
+        "id": "main-page-of-touring;:-3---register;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
-            "line": 10,
-            "name": "in Browser page \"http://newtours.demoaut.com/\"",
+            "line": 14,
+            "name": "From MainPage \"http://newtours.demoaut.com/\" going to Register page",
             "keyword": "Given "
           },
           {
-            "line": 11,
-            "name": "I login with user ID \"Mercury\", and password \"mercury\"",
+            "line": 15,
+            "name": "Register with \"Mic\" \"W\" \"11 donmills\" \"Canada\" \"MWU\" \"123456\" information",
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 15222535,
+              "duration": 25452536,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I will acess to successful login page with title \"Find a Flight: Mercury Tours:\"",
+            "line": 16,
+            "name": "Registeration successed with title of \"Register: Mercury Tours\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Find a Flight: Mercury Tours:",
-                  "offset": 50
+                  "val": "Register: Mercury Tours",
+                  "offset": 39
                 }
               ],
-              "location": "WorldTourMainPageSteps.iWillAcessToSuccessfulLoginPageWithTitle(String)"
+              "location": "WorldTourMainPageSteps.registerationSuccessedWithTitleOf(String)"
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
+        ]
+      },
+      {
+        "line": 20,
+        "name": ": 3 - Register",
+        "description": "",
+        "id": "main-page-of-touring;:-3---register;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
           {
-            "line": 8,
-            "name": "@ignore"
+            "line": 14,
+            "name": "From MainPage \"http://newtours.demoaut.com/\" going to Register page",
+            "keyword": "Given "
+          },
+          {
+            "line": 15,
+            "name": "Register with \"He\" \"W\" \"12 northyork\" \"UNITED STATES\" \"Hen\" \"23467\" information",
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18642802,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Registeration successed with title of \"Register: Mercury Tours\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register: Mercury Tours",
+                  "offset": 39
+                }
+              ],
+              "location": "WorldTourMainPageSteps.registerationSuccessedWithTitleOf(String)"
+            },
+            "keyword": "Then "
           }
         ]
       }

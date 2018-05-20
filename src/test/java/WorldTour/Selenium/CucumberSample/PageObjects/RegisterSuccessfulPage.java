@@ -1,14 +1,14 @@
 package WorldTour.Selenium.CucumberSample.PageObjects;
 
 import org.openqa.selenium.WebDriver;
-//Boooooooooo
-public class LoginSuccessPage {
+
+public class RegisterSuccessfulPage {
     WebDriver driver;
-    public LoginSuccessPage(WebDriver driver){
+    public RegisterSuccessfulPage(WebDriver driver){
         this.driver = driver;
     }
 
     public WebDriver getDriver(){
-        return driver;
+        return this.driver;
     }
 }

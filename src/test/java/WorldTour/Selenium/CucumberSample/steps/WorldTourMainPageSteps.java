@@ -1,6 +1,8 @@
 package WorldTour.Selenium.CucumberSample.steps;
 
-import WorldTour.Selenium.CucumberSample.PageObjects.LoginSuccessPage;
+import WorldTour.Selenium.CucumberSample.PageObjects.FindaFlightPage;
+import WorldTour.Selenium.CucumberSample.PageObjects.RegisterPage;
+import WorldTour.Selenium.CucumberSample.PageObjects.RegisterSuccessfulPage;
 import WorldTour.Selenium.CucumberSample.PageObjects.TouringMainPage;
 import cucumber.annotation.After;
 import cucumber.annotation.Before;
@@ -16,8 +18,9 @@ import java.util.concurrent.TimeUnit;
 public class WorldTourMainPageSteps {
     WebDriver driver;
     TouringMainPage touringMainpage;
-    TouringMainPage mainPage;
-    LoginSuccessPage loggedinpage;
+    FindaFlightPage findaFlightPage;
+    RegisterPage registerPage;
+    RegisterSuccessfulPage registerSuccessfulPage;
     @Before
     public void StartUpStep(){
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
@@ -49,12 +52,28 @@ public class WorldTourMainPageSteps {
 
     @When("^I login with user ID \"([^\"]*)\", and password \"([^\"]*)\"$")
     public void iLoginWithUserIDAndPassword(String arg0, String arg1) throws Throwable {
-        loggedinpage = touringMainpage.loginUser(arg0, arg1);
+        findaFlightPage = touringMainpage.loginUser(arg0, arg1);
 
     }
 
-    @Then("^I will acess to successful login page with title \"([^\"]*)\"$")
+    @Then("^I will access to successful login page with title \"([^\"]*)\"$")
     public void iWillAcessToSuccessfulLoginPageWithTitle(String arg0) throws Throwable {
-        Assert.assertEquals(arg0,loggedinpage.getDriver().getTitle());
+        Assert.assertEquals(arg0, findaFlightPage.getDriver().getTitle());
+    }
+
+    @Given("^From MainPage \"([^\"]*)\" going to Register page$")
+    public void fromMainPageGoingToRegisterPage(String arg0) throws Throwable {
+        touringMainpage = new TouringMainPage(driver, arg0);
+        registerPage = touringMainpage.goesToRegisterPage();
+    }
+
+    @When("^Register with \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" information$")
+    public void registerWithInformation(String arg0, String arg1, String arg2, String arg3, String arg4, String arg5) throws Throwable {
+        registerSuccessfulPage = registerPage.Register(arg0, arg1, arg2, arg3, arg4, arg5);
+    }
+
+    @Then("^Registeration successed with title of \"([^\"]*)\"$")
+    public void registerationSuccessedWithTitleOf(String arg0) throws Throwable {
+        Assert.assertEquals(arg0,registerSuccessfulPage.getDriver().getTitle());
     }
 }

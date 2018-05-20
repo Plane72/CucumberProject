@@ -16,10 +16,14 @@ public class TouringMainPage {
         return driver;
     }
 
-    public LoginSuccessPage loginUser(String userID, String userPWD){
+    public FindaFlightPage loginUser(String userID, String userPWD){
         driver.findElement(By.name("userName")).sendKeys(userID);
         driver.findElement(By.name("password")).sendKeys(userPWD);
         driver.findElement(By.name("login")).click();
-        return new LoginSuccessPage(driver);
+        return new FindaFlightPage(driver);
+    }
+    public RegisterPage goesToRegisterPage(){
+        driver.findElement(By.linkText("REGISTER")).click();
+        return new RegisterPage(driver);
     }
 }
