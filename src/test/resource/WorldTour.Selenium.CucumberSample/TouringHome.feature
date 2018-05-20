@@ -16,5 +16,5 @@ Feature: Main page of touring
     Then Registeration successed with title of "Register: Mercury Tours"
     Examples:
     |Fname|LName|address|Country|username|password|
-    |Mic|W|11 donmills|Canada|MWU|123456|
-    |He|W|12 northyork|UNITED STATES|Hen|23467|
+    |KK|Wick|11 empire|Canada|KWICK|123456|
+    |HH|Wrok|12 queens|UNITED STATES|HWROK|23467|
